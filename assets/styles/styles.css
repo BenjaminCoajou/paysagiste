@@ -8,6 +8,15 @@
     color: white;
 }
 
+h2 {
+    border-left: #198754 solid 5px;
+    margin-left: 10%;
+}
+
+.h2-w {
+    border-left: white solid 5px;
+}
+
 .carte {
     background-color: rgba(0, 0, 0, 0.253);
 }
@@ -18,12 +27,29 @@
 
 .image {
     border-radius: 50%;
-}
-
-.card {
-    border: none !important;
+    position: relative;
+    top: -10vh;
+    left: 5%;
+    width: 90%;
 }
 
 .col {
     width: 27%;
+}
+
+.card:hover {
+    position: relative;
+    bottom: 15px;
+    right: 15px;
+    box-shadow: 15px 15px 0px #198754;
+}
+
+.btn-success:focus {
+    color: #198754;
+    background-color: white;
+}
+
+.section-2 {
+    background-color: #198754;
+    color: white;
 }
