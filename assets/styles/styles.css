@@ -1,0 +1,14 @@
+.barreNav {
+    margin: 0 10%;
+}
+.titre {
+    background-image: url("../../assets/images/landscape1.jpg");
+    background-size: cover;
+    height: 100vh;
+    color: white;
+}
+
+.carte {
+    background-color: rgba(0, 0, 0, 0.253);
+    width: 80%;
+}
