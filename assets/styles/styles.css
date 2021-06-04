@@ -4,11 +4,26 @@
 .titre {
     background-image: url("../../assets/images/landscape1.jpg");
     background-size: cover;
-    height: 100vh;
+    height: 90vh;
     color: white;
 }
 
 .carte {
     background-color: rgba(0, 0, 0, 0.253);
+}
+
+.w-80 {
     width: 80%;
+}
+
+.image {
+    border-radius: 50%;
+}
+
+.card {
+    border: none !important;
+}
+
+.col {
+    width: 27%;
 }
